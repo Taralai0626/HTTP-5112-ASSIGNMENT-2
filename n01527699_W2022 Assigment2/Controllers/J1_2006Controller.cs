@@ -8,7 +8,7 @@ using System.Web.Http;
 namespace n01527699_W2022_Assigment2.Controllers
 {   
    
-    public class TheNewCCCController : ApiController
+    public class J1_2006Controller : ApiController
     {
         /// <summary>
         /// take user's choice for each category, it would find the choice in the each array.
@@ -20,7 +20,7 @@ namespace n01527699_W2022_Assigment2.Controllers
         /// <returns>since user choice number starts with 1 and array starts with 0
         /// when user input the number should minus 1 then take it into array to
         /// find the choice and return it.</returns>
-        [Route("api/TheNewCCC/Get/{burgerId}/{drinkId}/{sideId}/{dessertId}")]
+        [Route("api/J1_2006/Get/{burgerId}/{drinkId}/{sideId}/{dessertId}")]
       
         public string Get(int burgerId, int drinkId, int sideId, int dessertId)
         {

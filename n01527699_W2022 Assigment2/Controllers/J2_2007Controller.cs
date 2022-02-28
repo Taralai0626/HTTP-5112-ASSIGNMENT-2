@@ -18,12 +18,12 @@ namespace n01527699_W2022_Assigment2.Controllers
         /// if not, it return whatever user's input</returns>
         /// since URL is not allow to have ":", I do not know how to resolve it, 
         /// so I just continue resolving this J2 quesiton.
-        [Route("api/J2/Get/{id}")]
+        [Route("api/J2_2007/Get/{id}")]
         public string get(string id)
         {
             string upperStr = id.ToUpper();
             string shortForm1 = "CU";
-            string translation1 = "see you";
+            string translation1 = "see you"; 
             string shortForm2 = ":-)";
             string translation2 = "I’m happy";
             string shortForm3 = ":-(";
